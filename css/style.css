@@ -1,0 +1,31 @@
+/*
+A CSS rule set has one part called selector, and the other part called declaration. The
+declaration contains various rules, each composed by a property, and a value.
+In this example, p is the selector, and applies one rule which sets the value 20px to the
+font-size property: In this example the body is the selector
+and there are a set of rules for: font, padding, margin, and background-color
+*/
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+
+  /* Global - 
+  
+  Global means that the css formatting rules specified will apply as a default
+  to the selectors indicated.
+  
+  The container width is responsive to the size of the device, 
+  the margin 'auto' will keep the conainer in the middle of the screen
+  using 'overflow hidden' will prevent a scroll bar from popping up
+  if the content goes beyond the screen boundary
+  */
+  
+.container{
+    width:80%; 
+    margin:auto;
+    overflow:hidden;
+  }
