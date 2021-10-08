@@ -87,10 +87,11 @@ header a:hover{
 
 /*Showcase*/
 #showcase{
-    min-height: 400px;
-    background:url("../img/showcase.JPG") no-repeat 0 -400px;
+    min-height: 200px;
+    background:url("../img/showcase.gif") no-repeat 0 -400px;
+    background-size:auto auto;
     text-align:center;
-    color:#ffffff;
+    color:#000000;
 
 
 }
@@ -168,8 +169,8 @@ article#main-col{
     width: 65%;
 }
 
-/* Services */
-ul#services li{
+/* habits */
+ul#habits li{
     list-style:none;
     padding: 20px;
     border:#CCCCCC solid 1px;
